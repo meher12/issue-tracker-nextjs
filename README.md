@@ -24,5 +24,15 @@
               "text-zinc-500": link.href !== currentPath,
               "hover:text-zinc-800 transition-colors": true, 
               })}
-```           
+```  
+## Setting Up MySQL And Prisma 
+1. Install prisma
+```
+npm i prisma@5.3.1
+```
+2. Initialize prisma in this project
+```
+npx prisma init
+```
+
      
