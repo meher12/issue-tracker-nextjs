@@ -34,5 +34,14 @@ npm i prisma@5.3.1
 ```
 npx prisma init
 ```
+## Creating the Issue Model 
+1. After create prisma schema to format it write: 
+```
+npx prisma format
+```
+2. In a development environment, use the migrate dev command to generate and apply migrations:
+```
+npx prisma migrate dev
+```
 
      
