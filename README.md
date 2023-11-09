@@ -51,5 +51,17 @@ npx prisma migrate dev
 2. Nextjs with prisma client(***[Best practice for instantiating PrismaClient with Next.js](https://www.prisma.io/docs/guides/other/troubleshooting-orm/help-articles/nextjs-prisma-client-dev-practices)***)
    
 3. Using Postman to test API for creating issue
+## Setting Up [Radix UI](https://www.radix-ui.com/)
+1. Install Radix Themes
+```
+npm install @radix-ui/themes
+```
+2. Import the CSS file
+```
+import '@radix-ui/themes/styles.css';
+```
+3. Add the Theme component
+   ```
+   ```
 
      
