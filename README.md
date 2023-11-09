@@ -6,6 +6,7 @@
   1. Using React Components snippets Like ***rfce*** and ***rafce***
   2. Using <b>ul>li*2</b>
   3. Using Tailwind CSS and [React Icons](https://react-icons.github.io/react-icons/)
+   ***NB: In VS-code, if we want to find all occurrence of the currently selected word, we can just hit Ctrl+D command***
 ## 3. Style the active link in the NavBar 
   ***Active link*** <br/>
   1. First Method:
@@ -61,7 +62,7 @@ npm install @radix-ui/themes
 import '@radix-ui/themes/styles.css';
 ```
 3. Add the Theme component
-   ```
-   ```
+
+## Building the New Issue Page
 
      
