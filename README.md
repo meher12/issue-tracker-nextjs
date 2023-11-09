@@ -43,5 +43,13 @@ npx prisma format
 ```
 npx prisma migrate dev
 ```
+## Building an API for creating issue:
+1. Install [Zod](https://zod.dev/): Is a TypeScript-first schema declaration and validation library. I'm using the term "schema" to broadly refer to any data type: 
+   ```
+   npm i zod@3.22.2
+   ```
+2. Nextjs with prisma client(***[Best practice for instantiating PrismaClient with Next.js](https://www.prisma.io/docs/guides/other/troubleshooting-orm/help-articles/nextjs-prisma-client-dev-practices)***)
+   
+3. Using Postman to test API for creating issue
 
      
