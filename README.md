@@ -88,6 +88,11 @@ npm i axios@1.5.0
 ```
 npm i @radix-ui/react-icons
 ```
+## Implementing Client-Side Validation
+- Install [@hookform/resolvers](https://www.npmjs.com/package/@hookform/resolvers)
+```
+npm install @hookform/resolvers@3.3.1
+```
 
 
 
