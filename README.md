@@ -67,5 +67,11 @@ import '@radix-ui/themes/styles.css';
 ## Customizing Radix UI Theme
 1. Use the <ThemePanel/> Component
 2. [Typography](https://www.radix-ui.com/themes/docs/theme/typography)
+   
+   ## Adding a Markdown Editor
+   1. Install [React SimpleMDE (EasyMDE)](https://www.npmjs.com/package/react-simplemde-editor?activeTab=readme)
+```
+npm install --save react-simplemde-editor easymde
+```
 
      
