@@ -94,6 +94,8 @@ npm i @radix-ui/react-icons
 npm install @hookform/resolvers@3.3.1
 ```
 ## Extracting the ErrorMessage Component 
+## Adding a Spinner to improve UX
+- [Tailwind elements spinner](https://tw-elements.com/docs/standard/components/spinners/)
 
 
 
