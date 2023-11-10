@@ -64,5 +64,8 @@ import '@radix-ui/themes/styles.css';
 3. Add the Theme component
 
 ## Building the New Issue Page
+## Customizing Radix UI Theme
+1. Use the <ThemePanel/> Component
+2. [Typography](https://www.radix-ui.com/themes/docs/theme/typography)
 
      
