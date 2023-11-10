@@ -97,6 +97,7 @@ npm install @hookform/resolvers@3.3.1
 ## Adding a Spinner to improve UX
 - [Tailwind elements spinner](https://tw-elements.com/docs/standard/components/spinners/)
 
+## Code Organization
 
 
      
