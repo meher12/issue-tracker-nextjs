@@ -68,10 +68,21 @@ import '@radix-ui/themes/styles.css';
 1. Use the <ThemePanel/> Component
 2. [Typography](https://www.radix-ui.com/themes/docs/theme/typography)
    
-   ## Adding a Markdown Editor
-   1. Install [React SimpleMDE (EasyMDE)](https://www.npmjs.com/package/react-simplemde-editor?activeTab=readme)
+## Adding a Markdown Editor
+  1. Install [React SimpleMDE (EasyMDE)](https://www.npmjs.com/package/react-simplemde-editor?activeTab=readme)
 ```
 npm install --save react-simplemde-editor easymde
 ```
+## Handling Form Submission
+1. Install [React Hook Form](https://react-hook-form.com/)
+```
+npm i react-hook-form@7.46.1
+```
+2. Create form in new issue
+3. Install Axios, ***is a popular library is mainly used to send asynchronous HTTP requests to REST endpoints***
+```
+npm i axios@1.5.0
+```
+
 
      
