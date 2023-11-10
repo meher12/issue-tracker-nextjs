@@ -83,6 +83,12 @@ npm i react-hook-form@7.46.1
 ```
 npm i axios@1.5.0
 ```
+## Handling Errors
+- Install [Radix Icon] (https://www.radix-ui.com/icons)
+```
+npm i @radix-ui/react-icons
+```
+
 
 
      
