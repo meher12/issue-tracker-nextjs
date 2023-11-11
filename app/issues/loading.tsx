@@ -1,13 +1,13 @@
-import React from 'react'
-import IssueActions from './IssueActions';
-import { Table } from '@radix-ui/themes';
-import Skeleton from 'react-loading-skeleton';
+import React from "react";
+import IssueActions from "./IssueActions";
+import { Table } from "@radix-ui/themes";
+import Skeleton from "react-loading-skeleton";
 
 function LoadingIssuesPage() {
-    const issues= [1,2,3,4,5];
+  const issues = [1, 2, 3, 4, 5];
   return (
     <div>
-      <IssueActions/>
+      <IssueActions />
       <Table.Root variant="surface">
         <Table.Header>
           <Table.Row>
@@ -40,7 +40,7 @@ function LoadingIssuesPage() {
         </Table.Body>
       </Table.Root>
     </div>
-  )
+  );
 }
 
-export default LoadingIssuesPage
+export default LoadingIssuesPage;
