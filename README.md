@@ -100,6 +100,10 @@ npm install @hookform/resolvers@3.3.1
 ## Code Organization
 ## Show the issues
 ## Build the issue status badge
+## Add loading [skeletons](https://www.npmjs.com/package/react-loading-skeleton)
+```
+npm install react-loading-skeleton
+```
 
 
      
