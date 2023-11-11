@@ -105,5 +105,6 @@ npm install @hookform/resolvers@3.3.1
 npm install react-loading-skeleton
 ```
 ## Show issue details
+## Style the issue detail page
 
      
