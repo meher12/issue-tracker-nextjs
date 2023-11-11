@@ -106,5 +106,9 @@ npm install react-loading-skeleton
 ```
 ## Show issue details
 ## Style the issue detail page
+## Add markdown preview
+```
+npm i react-markdown
+```
 
      
