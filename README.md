@@ -1,13 +1,13 @@
 # Build a Full-stack App with Next.js, Tailwind, Radix UI, and Prisma
 
-## 1. Create a New project:
+## Create a New project:
 ***Using npx create-next-app***
-## 2. Build the NavBar :
+## Build the NavBar :
   1. Using React Components snippets Like ***rfce*** and ***rafce***
   2. Using <b>ul>li*2</b>
   3. Using Tailwind CSS and [React Icons](https://react-icons.github.io/react-icons/)
    ***NB: In VS-code, if we want to find all occurrence of the currently selected word, we can just hit Ctrl+D command***
-## 3. Style the active link in the NavBar 
+## Style the active link in the NavBar 
   ***Active link*** <br/>
   1. First Method:
 
@@ -26,7 +26,7 @@
               "hover:text-zinc-800 transition-colors": true, 
               })}
 ```  
-## 4. Setting Up MySQL And Prisma 
+## Setting Up MySQL And Prisma 
 1. Install prisma
 ```
 npm i prisma@5.3.1
@@ -35,7 +35,7 @@ npm i prisma@5.3.1
 ```
 npx prisma init
 ```
-## 5. Creating the Issue Model 
+## Creating the Issue Model 
 1. After create prisma schema to format it write: 
 ```
 npx prisma format
@@ -44,7 +44,7 @@ npx prisma format
 ```
 npx prisma migrate dev
 ```
-## 6. Building an API for creating issue:
+## Building an API for creating issue:
 1. Install [Zod](https://zod.dev/): Is a TypeScript-first schema declaration and validation library. I'm using the term "schema" to broadly refer to any data type: 
    ```
    npm i zod@3.22.2
@@ -52,7 +52,7 @@ npx prisma migrate dev
 2. Nextjs with prisma client(***[Best practice for instantiating PrismaClient with Next.js](https://www.prisma.io/docs/guides/other/troubleshooting-orm/help-articles/nextjs-prisma-client-dev-practices)***)
    
 3. Using Postman to test API for creating issue
-## 7. Setting Up [Radix UI](https://www.radix-ui.com/)
+## Setting Up [Radix UI](https://www.radix-ui.com/)
 1. Install Radix Themes
 ```
 npm install @radix-ui/themes
@@ -63,17 +63,17 @@ import '@radix-ui/themes/styles.css';
 ```
 3. Add the Theme component
 
-## 8. Building the New Issue Page
-## 9. Customizing Radix UI Theme
+## Building the New Issue Page
+## Customizing Radix UI Theme
 1. Use the <ThemePanel/> Component
 2. [Typography](https://www.radix-ui.com/themes/docs/theme/typography)
    
-## 10. Adding a Markdown Editor
+## Adding a Markdown Editor
   1. Install [React SimpleMDE (EasyMDE)](https://www.npmjs.com/package/react-simplemde-editor?activeTab=readme)
 ```
 npm install --save react-simplemde-editor easymde
 ```
-## 11. Handling Form Submission
+## Handling Form Submission
 1. Install [React Hook Form](https://react-hook-form.com/)
 ```
 npm i react-hook-form@7.46.1
@@ -83,21 +83,22 @@ npm i react-hook-form@7.46.1
 ```
 npm i axios@1.5.0
 ```
-## 12. Handling Errors
+## Handling Errors
 - Install [Radix Icon] (https://www.radix-ui.com/icons)
 ```
 npm i @radix-ui/react-icons
 ```
-## 13. Implementing Client-Side Validation
+## Implementing Client-Side Validation
 - Install [@hookform/resolvers](https://www.npmjs.com/package/@hookform/resolvers)
 ```
 npm install @hookform/resolvers@3.3.1
 ```
-## 14. Extracting the ErrorMessage Component 
-## 15. Adding a Spinner to improve UX
+## Extracting the ErrorMessage Component 
+## Adding a Spinner to improve UX
 - [Tailwind elements spinner](https://tw-elements.com/docs/standard/components/spinners/)
 
-## 16. Code Organization
+## Code Organization
+## Show the issues
 
 
      
