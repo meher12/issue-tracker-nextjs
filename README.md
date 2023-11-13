@@ -115,5 +115,6 @@ npm i react-markdown
 ## Disable SSR for loading md editor
 ## Refactor: Organize import statements
 ## Add the edit button
+## Refactor: Apply the SRP(Single Responsibility Principle)
 
      
