@@ -3,6 +3,7 @@ import prisma from "@/prisma/client";
 import { Flex, Heading, Text, Card } from "@radix-ui/themes";
 import { notFound } from "next/navigation";
 import ReactMarkdown from "react-markdown";
+import React from "react";
 
 interface Props {
   params: { id: string };

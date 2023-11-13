@@ -4,7 +4,7 @@ import { Button, Table } from "@radix-ui/themes";
 import prisma from "@/prisma/client";
 import IssueStatusBadge from "../components/IssueStatusBadge";
 import IssueActions from "./IssueActions";
-import Link from "next/link";
+import Link from "../components/Link";
 
 async function delay(ms: number) {
   await new Promise((resolve) => setTimeout(resolve, ms));
