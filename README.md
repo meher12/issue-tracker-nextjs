@@ -117,5 +117,6 @@ npm i react-markdown
 ## Add the edit button
 ## Refactor: Apply the SRP(Single Responsibility Principle)
 ## Build the edit issue page
+## Build an API for updating issues
 
      
