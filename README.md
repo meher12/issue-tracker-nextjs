@@ -116,5 +116,6 @@ npm i react-markdown
 ## Refactor: Organize import statements
 ## Add the edit button
 ## Refactor: Apply the SRP(Single Responsibility Principle)
+## Build the edit issue page
 
      
