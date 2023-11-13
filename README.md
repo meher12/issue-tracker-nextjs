@@ -114,5 +114,6 @@ npm i react-markdown
 ## Add additional loading skeletons
 ## Disable SSR for loading md editor
 ## Refactor: Organize import statements
+## Add the edit button
 
      
