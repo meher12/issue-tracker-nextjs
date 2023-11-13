@@ -111,5 +111,6 @@ npm install react-loading-skeleton
 npm i react-markdown
 ```
 ## Build a styled link component
+## Add additional loading skeletons
 
      
